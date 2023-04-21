@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+  
+
+/*Add responsiveness to all pages*/ 
+
+body{
+    background-image: url(Images/Backgroundstory.jpg);
+    height: 120vh;
+    width: 100vw;
+}
+
+h1{
+    position: absolute;
+    left: 480px;
+    top: 0px; 
+    font-family: 'Rubik Wet Paint';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 95px;
+    text-align: center;
+
+    color: rgba(216, 77, 77, 0.76);
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    position: absolute;
+width: 900px;
+height: 600px;
+left: 306px;
+top: 236px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 100;
+font-size: 28px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 962px;
+height: 620px;
+left: 275px;
+top: 180px;
+
+background: linear-gradient(180deg, #BF1C1C 0%, #270707 100%);
+border: 4px solid #000000;
+border-radius: 32px;
+
+
+}
+
+#Read{
+    box-sizing: border-box; 
+position: absolute;
+width: 240px;
+height: 64px;
+left: 1237px;
+top: 869px;
+background: rgba(216, 77, 77, 0.936);
+border: 4px solid #000000;
+border-radius: 32px;
+font-family: 'Outfit';
+font-style: normal;
+font-size: 28px;
+cursor: pointer;
+box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#Read:hover{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+
+</style>
+<body>
+    <h1>Instructions</h1>
+
+    <p>
+        This game is an interactive fiction. This lets you,
+        <br>
+         the reader, choose the path that the story takes.
+        <br>
+        <br>
+        Every choice you make will effect the storyline in a 
+        <br>
+        different way. You will be presented with a set of 
+        <br>
+        choices after every stage of the story.
+        <br>
+        <br>
+        Whatever choice you make, the story will lead in
+        <br>
+        that direction.
+        <br>
+        <br>
+        Be wise with the choices you make.
+        <br>
+        Enjoy reading!
+    </p>
+
+    <button id="Read" onclick="StartReading()">Start Reading</button>
+
+    <audio autoplay="true" loop="true" source src="Audio\horizon-99058.mp3" l type="audio/mpeg">
+    </audio>
+
+</body>
+
+<script>
+
+    function StartReading(){
+        window.location = "Page1.html"
+    }
+
+
+</script>
+
+
+</html>

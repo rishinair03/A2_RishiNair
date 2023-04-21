@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-image: url(Images/Backgroundstory.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    position: absolute;
+left: 40%;
+top: 20%;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 100;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 880px;
+height: 264px;
+left: 19%;
+top: 5%;
+
+background: linear-gradient(180deg, #BC1B1B 0%, #290707 100%);
+border: 4px solid #FFFFFF;
+border-radius: 32px;
+}
+
+#Feast{
+    box-sizing: border-box;
+position: absolute;
+width: 240px;
+height: 64px;
+left: 40%;
+top: 88%;
+background: rgba(216, 77, 77, 0.936);
+border: 4px solid #000000;
+border-radius: 32px;
+font-size: 28px;
+color: black;
+font-family: 'Outfit';
+cursor: pointer;
+font-style: normal;
+box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Feast:hover{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+</style>
+
+
+<body>
+    <p>
+        Funny. I would do the same. Just look at this
+        <br>
+        table dressed with the finest drunk food. 
+        <br>
+        Pizza, chips, pasta, cake; you name it, 
+        <br>
+        you get it. Time to have the best meal of 
+        <br> 
+        your life. Bon appetit! 
+    </p>
+
+    <button id="Feast" onclick="Feast()">Feast</button>
+
+    <audio autoplay="true" loop="true" source src="Audio\horizon-99058.mp3" l type="audio/mpeg">
+    </audio>
+
+
+</body>
+
+<script>
+
+    function Feast(){
+        window.location = "Page12.html"
+    }
+</script>
+
+
+</html>

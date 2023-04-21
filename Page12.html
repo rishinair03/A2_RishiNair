@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+body{
+    background-image: url(Images/Backgroundstory.jpg);
+    background-size:cover ;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+p{
+    position: absolute;
+left: 40%;
+top: 20%;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 100;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1000px;
+height: 160px;
+left: 16%;
+top: 5%;
+
+background: linear-gradient(180deg, #BC1B1B 0%, #290707 100%);
+border: 4px solid #FFFFFF;
+border-radius: 32px;
+}
+
+#Leave12{
+    box-sizing: border-box;
+position: absolute;
+width: 240px;
+height: 64px;
+left: 40%;
+top: 88%;
+background: rgba(216, 77, 77, 0.936);
+border: 4px solid #000000;
+border-radius: 32px;
+cursor: pointer;
+font-size: 28px;
+color: black;
+font-family: 'Outfit';
+cursor: pointer;
+font-style: normal;
+box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#Leave12:hover{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+</style>
+
+<body>
+    <p>
+        Now that you have nothing else to do here,
+        <br>
+        you might as well head home and call it a 
+        <br>
+        day. Get a cab. Do not think too much about it. 
+    </p>
+
+    <button id="Leave12" onclick="Leave12()">Head home</button>
+
+    <audio autoplay="true" loop="true" source src="Audio\horizon-99058.mp3" l type="audio/mpeg">
+    </audio>
+    
+</body>
+
+<script>
+    function Leave12(){
+        window.location = "Page27.html"
+    }
+
+</script>
+
+</html>

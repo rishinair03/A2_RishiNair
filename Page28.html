@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+body{
+    background-image: url(Images/Backgroundstory.jpg);
+    background-size:cover ;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+p{
+    position: absolute;
+left: 40%;
+top: 20%;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 100;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 950px;
+height: 210px;
+left: 18%;
+top: 5%;
+
+background: linear-gradient(180deg, #BC1B1B 0%, #290707 100%);
+border: 4px solid #FFFFFF;
+border-radius: 32px;
+}
+
+#Fomo{
+    box-sizing: border-box;
+position: absolute;
+width: 240px;
+height: 64px;
+left: 40%;
+top: 88%;
+background: rgba(216, 77, 77, 0.936);
+border: 4px solid #000000;
+border-radius: 32px;
+cursor: pointer;
+font-size: 24px;
+color: black;
+font-family: 'Outfit';
+cursor: pointer;
+font-style: normal;
+box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#Fomo:hover{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+</style>
+
+
+<body>
+    <p>
+        Ooooh! Boy do you have a major fear of
+        <br>
+        missing out. Book a cab and head back as
+        <br>
+        quick as you can. Do not doze off in the 
+        <br>
+        cab.
+    </p>
+
+    <button id="Fomo" onclick="Fomo()">Let's go!</button>
+
+    <audio autoplay="true" loop="true" source src="Audio\horizon-99058.mp3" l type="audio/mpeg">
+    </audio>
+    
+
+</body>
+
+<script>
+    function Fomo(){
+        window.location = "Page2.html"
+    }
+
+
+</script>
+
+</html>
